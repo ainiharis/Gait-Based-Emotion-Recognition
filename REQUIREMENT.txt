@@ -1,0 +1,41 @@
+README.txt
+
+Project Title: Gait-Based Emotion Recognition using DenseNet121
+
+Overview:
+This project uses the DenseNet121 deep learning model to recognize human emotions based on gait patterns. The source code is written in Python and implemented in a Jupyter Notebook format.
+
+---------------------------
+1. How to Run the Code (Recommended: Google Colab)
+---------------------------
+
+Step 1: Open the following link to access Google Colab:
+https://colab.research.google.com/
+
+Step 2: Upload the notebook file:
+- Click "File" > "Upload Notebook"
+- Select the file: Gait-DenseNet121.ipynb
+
+Step 3: Upload your dataset:
+- Use the folder icon on the left panel to upload your dataset (or mount Google Drive if needed).
+- Make sure the file paths in the notebook match your uploaded dataset location.
+
+Step 4: Run the code:
+- Click “Runtime” > “Run all”
+- Follow any prompts or instructions that appear.
+
+---------------------------
+2. Requirements (Automatically Handled in Colab)
+---------------------------
+The following libraries are used in the notebook and will be installed automatically in Google Colab:
+- TensorFlow
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+---------------------------
+3. Notes
+---------------------------
+- Ensure that your dataset is structured correctly.
+- If training is slow, go to “Runtime” > “Change runtime type” and select **GPU** as the hardware accelerator.
