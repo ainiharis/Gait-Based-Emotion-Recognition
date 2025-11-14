@@ -1,12 +1,12 @@
-# Gait Based Emotion Recognition Using Pre-Trained Model
+## Gait Based Emotion Recognition Using Pre-Trained Model
 Using pre-trained deep learning models to recognize emotions based on how people walk. By adapting models trained on large datasets, the goal is to apply this to real-world situations, such as monitoring emotions in the elderly or improving virtual experiences.
 
 
-## E-Walk Dataset
+### E-Walk Dataset
 https://drive.google.com/drive/folders/1YgHBwrOJUrOjy4YgpnopE2Rg7QAjPoEC?usp=sharing
 
 
-## Model Comparison
+### Model Comparison
 Between the seven tested models, the goal was to choose one with moderate accuracy (90–95%), providing strong learning ability while still leaving room for improvement. Based on this, InceptionV3 and DenseNet121 were the best candidates.
 **DenseNet121** was selected because, although slightly less accurate, it is a modern and efficient architecture with dense layer connections that improve feature reuse and gradient flow.
 
@@ -21,8 +21,7 @@ Between the seven tested models, the goal was to choose one with moderate accura
 | **DenseNet121**   | **91.58**    | **1126.63**        |
 
 
-
-## Summary of optimal hyperparameters for the Gait-Densenet121
+###Summary of optimal hyperparameters for the Gait-Densenet121
 Accuracy after enhancement: 99.74%
 
 | Hyperparameters       | Tested Values                             | Optimal Value |
