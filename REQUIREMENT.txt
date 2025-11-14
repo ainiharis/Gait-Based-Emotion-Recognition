@@ -1,9 +1,9 @@
 README.txt
 
-Project Title: Gait-Based Emotion Recognition using DenseNet121
+Project Title: Gait-Based Emotion Recognition using Pre-Trained Model
 
 Overview:
-This project uses the DenseNet121 deep learning model to recognize human emotions based on gait patterns. The source code is written in Python and implemented in a Jupyter Notebook format.
+This project uses the Pre-Trained deep learning model to recognize human emotions based on gait patterns. The source code is written in Python and implemented in a Jupyter Notebook format.
 
 ---------------------------
 1. How to Run the Code (Recommended: Google Colab)
@@ -39,3 +39,4 @@ The following libraries are used in the notebook and will be installed automatic
 ---------------------------
 - Ensure that your dataset is structured correctly.
 - If training is slow, go to “Runtime” > “Change runtime type” and select **GPU** as the hardware accelerator.
+
